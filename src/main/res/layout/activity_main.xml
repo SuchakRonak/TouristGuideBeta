@@ -9,25 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="nf.co.phycho.touristguidebeta.MainActivity">
 
-    <!--<android.support.v7.widget.AppCompatImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/icon_main"/> -->
-
-    <ProgressBar
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp" />
 
     <ImageView
-        android:src="@drawable/logo_lowsize"
+        android:src="@drawable/icon_main"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:id="@+id/imageView2"

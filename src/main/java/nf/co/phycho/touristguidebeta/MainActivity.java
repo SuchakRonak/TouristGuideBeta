@@ -13,7 +13,6 @@ import java.util.logging.Handler;
 import java.util.logging.LogRecord;
 
 public class MainActivity extends AppCompatActivity {
-    ProgressBar mProgressbar;
     Thread thread;
     Runnable r;
     String logTag = "nf.co.phycho.touristguidebeta";
@@ -21,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mProgressbar = (ProgressBar) findViewById(R.id.progressBar);
-        mProgressbar.setVisibility(View.VISIBLE);
         try{newActivity();}catch (Exception e){e.printStackTrace();}
 
     }
@@ -41,12 +38,9 @@ public class MainActivity extends AppCompatActivity {
                     Log.v("activity started", logTag);
 
                 }
-            }, 3000);
+            }, 300);
     }
 
-    @Override
-    public void onBackPressed() {
 
-    }
 }
 
