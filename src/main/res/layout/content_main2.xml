@@ -13,39 +13,5 @@
     tools:context="nf.co.phycho.touristguidebeta.Main2Activity"
     tools:showIn="@layout/app_bar_main2">
 
-<Button
-    android:layout_width="175dp"
-    android:layout_height="45dp"
-    android:id="@+id/BTN_map"
-    android:text="Map"
-    android:layout_x="0dp"
-    android:background="#4466CC"/>
-    <Button
-        android:layout_width="175dp"
-        android:layout_height="45dp"
-        android:id="@+id/BTN_type"
-        android:text="type of places"
-        android:layout_x="190dp"
-        android:background="#4466CC"/>
-    <Button
-        android:layout_width="175dp"
-        android:layout_height="40dp"
-        android:id="@+id/BTN_guide"
-        android:text="guide"
-        android:layout_x="0dp"
-        android:layout_y="125dp"
-        android:background="#4466CC"/>
-    <Button
-        android:layout_width="175dp"
-        android:layout_height="40dp"
-        android:id="@+id/BTN_tickets"
-        android:text="type of places"
-        android:layout_x="190dp"
-        android:layout_y="125dp"
-        android:background="#4466CC"/>
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_y="250dp"
-        ></android.support.v7.widget.RecyclerView>
+
 </AbsoluteLayout>

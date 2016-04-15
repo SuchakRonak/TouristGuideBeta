@@ -22,4 +22,10 @@
         app:headerLayout="@layout/nav_header_main2"
         app:menu="@menu/activity_main2_drawer" />
 
+<fragment
+    android:id="@+id/place_autocomplet_fragement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:name="com.android.gms.location.ui.PlaceAutocompletFragement"/>
+
 </android.support.v4.widget.DrawerLayout>
